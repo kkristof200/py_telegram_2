@@ -144,10 +144,6 @@ class Telegram:
             params=params
         )
 
-        from kcu import kjson
-
-        kjson.print(res.json())
-
         return res.json()
 
 
