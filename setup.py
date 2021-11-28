@@ -10,7 +10,7 @@ else:
 
 setuptools.setup(
     name='ktg2',
-    version='0.0.2',
+    version='0.0.3',
     author='Kristóf-Attila Kovács',
     description='ktg2',
     long_description=long_description,
@@ -20,8 +20,8 @@ setuptools.setup(
     install_requires=[
         'jsoncodable>=0.1.7',
         'kcu>=0.0.73',
-        'noraise>=0.0.26',
-        'setuptools>=59.2.0'
+        'noraise>=0.0.16',
+        'setuptools>=59.3.0'
     ],
     classifiers=[
         'Programming Language :: Python :: 3.4',
